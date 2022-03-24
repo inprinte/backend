@@ -36,7 +36,6 @@ func main() {
 	r := mux.NewRouter()
 
 	// backoffice paths
-
 	r.HandleFunc("/users", CRUDget.GetUsers).Methods("GET")
 
 	// normal paths
